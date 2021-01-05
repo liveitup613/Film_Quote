@@ -2,7 +2,7 @@
 const Quote = require('../../models/Quote');
 
 const searchQuote = async (req, res) => {
-    let body = req.params;
+    let body = req.body;
 
     console.log(body);
 
