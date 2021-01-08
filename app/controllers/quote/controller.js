@@ -15,6 +15,7 @@ const searchQuote = async (req, res) => {
     };
 
     try {
+
         let quotes = await Quote.searchQuote(body.search);        
 
         res.status(200).json({
